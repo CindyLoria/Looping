@@ -1,5 +1,4 @@
 #include <iostream>
- 
 using namespace std;
  
 int main()
@@ -7,6 +6,7 @@ int main()
  
   int tinggisegitiga,i,j,k;
  
+ //Input output
   cout << "Input tinggi segitiga: ";
   cin >> tinggisegitiga;
  
