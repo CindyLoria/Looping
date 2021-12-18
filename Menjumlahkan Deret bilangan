@@ -3,17 +3,18 @@ using namespace std;
 int main() {
 
   int n=1;
-  float jum=0;
+  float jumlah=0;
 
   do {
         cout<<""<<n;
         cout<<", ";
-        jum+=n;
+        jumlah+=n;
         n+=2;
-     } while (n<=10);
+     } 
+     while (n<=10);
 
   cout<<""<<endl;
   cout<<""<<endl;;
-  cout<<"Jumlah : "<<jum<<endl;;
+  cout<<"Jumlah : "<<jumlah<<endl;;
 
 }
