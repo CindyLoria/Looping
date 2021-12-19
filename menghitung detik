@@ -7,9 +7,11 @@ int main() {
    do {
 	 m= j *60;
        	 d=m*60;
+	 
 	 cout<<j<<" Jam "<<m<<" Menit "<<d<<" Detik"<<endl;
 	 j +=1;	
 	 
    } while (j <=10);
-   
+ 
+ return 0;
 }
